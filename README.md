@@ -30,3 +30,11 @@ Step 3: In the VS Code terminal, run the npm init command to download the necess
 Step 4: Run the npm start command in the terminal to start the back end service.
 
 <img src="READMEimg/Image_20241021174946.png" alt="Step 4" width="80%">
+
+Step 5: Please use the ipconfig command to determine your local machine's IP address.
+
+<img src="READMEimg/Image_20241021175237.png" alt="Step 5" width="80%">
+
+Step 6: Open the front end project in HBuilder X. Open the pages/index/index.vue file and change the IP address on line 88 to your local machine's IP address, with the port number set to 3000.
+
+<img src="READMEimg/Image_20241021175502.png" alt="Step 6" width="80%">
