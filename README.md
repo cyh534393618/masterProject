@@ -44,3 +44,6 @@ Step 7: Click the run button again in HBuilder X, and the app will be redeployed
 At this point, you have successfully deployed and connected the front end and back end.
 
 ## How to Use the App
+The app is mainly divided into the following five sections, which will be explained one by one regarding their functionalities.
+
+<img src="READMEimg/Image_20241021180949.png" alt="Step 5" height="60%">
