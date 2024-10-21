@@ -31,7 +31,7 @@ Step 4: Due to the large size of the model used for sentiment analysis, please d
 
 https://drive.google.com/drive/folders/1kXglKVpGmoI0XZq0i53CSL9f_uQl7d7v?usp=drive_link
 
-<img src="READMEimg/3in1/READMEimg/Image_20241021182824.png" alt="Step 4" width="80%">
+<img src="READMEimg/Image_20241021182824.png" alt="Step 4" width="80%">
 
 Run the npm start command in the terminal to start the back end service.
 
