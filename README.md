@@ -1,1 +1,3 @@
-# masterProject
+# MasterProject
+
+## Description
