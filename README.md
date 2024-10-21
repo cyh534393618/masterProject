@@ -63,3 +63,5 @@ The app is mainly divided into the following five sections, which will be explai
 4.When the recording is confirmed to be correct, click the "Convert recording to text" button to send the audio for processing by the back end.
 
 5.The process of sending the recording for back-end processing may take a few minutes. Once the results are generated on the back end, the app will display the analysis results for the current recording. The first line shows the transcription of the recording, while lines 2 to 4 present the analysis of accent, age, and gender. The fifth line provides the sentiment classification based on the transcription of the sentence.
+
+## Introduction to the Core of the Program - Python Script
