@@ -38,3 +38,9 @@ Step 5: Please use the ipconfig command to determine your local machine's IP add
 Step 6: Open the front end project in HBuilder X. Open the pages/index/index.vue file and change the IP address on line 88 to your local machine's IP address, with the port number set to 3000.
 
 <img src="READMEimg/Image_20241021175502.png" alt="Step 6" width="80%">
+
+Step 7: Click the run button again in HBuilder X, and the app will be redeployed in the emulator.
+
+At this point, you have successfully deployed and connected the front end and back end.
+
+## How to Use the App
