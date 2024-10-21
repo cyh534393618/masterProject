@@ -16,4 +16,4 @@ Step 4: Please ensure that the Android emulator is correctly opened on your loca
 
 Step 5: If everything is working correctly, the program will run properly in the emulator, as shown in the image below.
 
-<img src="READMEimg/Image_20241021173058.png" alt="Step 5" width="80%">
+<img src="READMEimg/Image_20241021173058.png" alt="Step 5" height="60%">
