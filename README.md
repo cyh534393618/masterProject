@@ -17,3 +17,16 @@ Step 4: Please ensure that the Android emulator is correctly opened on your loca
 Step 5: If everything is working correctly, the program will run properly in the emulator, as shown in the image below.
 
 <img src="READMEimg/Image_20241021173058.png" alt="Step 5" height="60%">
+
+## Back End setup
+Step 1: Please ensure that Node.js is correctly installed and configured on your local machine.
+
+Step 2: Open the source code project in the BackEnd folder using Visual Studio Code.
+
+Step 3: In the VS Code terminal, run the npm init command to download the necessary packages. Once the download is complete, a node_modules folder will be created in the root directory.
+
+<img src="READMEimg/Image_20241021174808.png" alt="Step 2-3" width="80%">
+
+Step 4: Run the npm start command in the terminal to start the back end service.
+
+<img src="READMEimg/Image_20241021174946.png" alt="Step 4" width="80%">
