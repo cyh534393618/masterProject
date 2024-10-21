@@ -46,4 +46,14 @@ At this point, you have successfully deployed and connected the front end and ba
 ## How to Use the App
 The app is mainly divided into the following five sections, which will be explained one by one regarding their functionalities.
 
-<img src="READMEimg/Image_20241021180949.png" alt="Step 5" height="60%">
+<img src="READMEimg/Image_20241021180949.png" alt="How to Use the App" height="60%">
+
+1.First, you should click the "Start recording" button and clearly speak a sentence into your local microphone (currently only supports English).
+
+2.Once you have finished speaking your sentence, please click the "Stop recording" button to stop the recording.
+
+3.If you want to check the recording quality, you can click the "Play recording" button to listen to and verify the recent recording.
+
+4.When the recording is confirmed to be correct, click the "Convert recording to text" button to send the audio for processing by the back end.
+
+5.The process of sending the recording for back-end processing may take a few minutes. Once the results are generated on the back end, the app will display the analysis results for the current recording. The first line shows the transcription of the recording, while lines 2 to 4 present the analysis of accent, age, and gender. The fifth line provides the sentiment classification based on the transcription of the sentence.
