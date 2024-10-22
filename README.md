@@ -76,4 +76,5 @@ The Python scripts are mainly divided into three files. WeNet.py is responsible 
 ------Train Model------
 
 1.Run the command 'python .\SoundClassification.py --mode train --data-path validated.tsv' to train the model.
+
 (For the validated.tsv file and the training audio files, please visit https://commonvoice.mozilla.org/en/datasets and select to download the Common Voice Corpus 3)
