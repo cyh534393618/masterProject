@@ -106,3 +106,11 @@ The required parameters are as follows:
 --model-path: The path to the trained model.
 
 --test-file: Path to the test audio file.
+
+### SoundClassification.py
+
+Run the command 'python .\Sentiment.py --mode test --sentence 'I want to make a complaint. I am very dissatisfied with the service yesterday'' to analyze the sentiment of the sentence.
+
+The required parameters are as follows:
+
+--sentence: The sentence to be analyzed.
