@@ -66,3 +66,5 @@ The app is mainly divided into the following five sections, which will be explai
 
 ## Introduction to the Core of the Program - Python Script
 The Python scripts are mainly divided into three files. WeNet.py primarily handles the speech-to-text conversion, while SoundClassification.py is used to analyze the speaker's gender, accent, and age based on the audio file. It includes functionality for training and fine-tuning models. Sentiment.py analyzes the sentiment level of the transcribed text from the audio. Each Python script can be run individually as needed. Below is an introduction to the usage of each file.
+
+### WeNet.py
