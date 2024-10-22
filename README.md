@@ -65,6 +65,13 @@ The app is mainly divided into the following five sections, which will be explai
 5.The process of sending the recording for back-end processing may take a few minutes. Once the results are generated on the back end, the app will display the analysis results for the current recording. The first line shows the transcription of the recording, while lines 2 to 4 present the analysis of accent, age, and gender. The fifth line provides the sentiment classification based on the transcription of the sentence.
 
 ## Introduction to the Core of the Program - Python Script
-The Python scripts are mainly divided into three files. WeNet.py primarily handles the speech-to-text conversion, while SoundClassification.py is used to analyze the speaker's gender, accent, and age based on the audio file. It includes functionality for training and fine-tuning models. Sentiment.py analyzes the sentiment level of the transcribed text from the audio. Each Python script can be run individually as needed. Below is an introduction to the usage of each file.
+The Python scripts are mainly divided into three files. WeNet.py is responsible for converting audio to text. SoundClassification.py is used to analyze the speaker's gender, accent, and age based on the audio file; it includes functionalities for training and fine-tuning the model. Sentiment.py analyzes the sentiment level of the sentence based on the transcribed text. Normally, if the back-end interface is called correctly, the back end will automatically invoke each Python program in sequence to generate results. Of course, each Python script can also be run individually as needed. Below is an introduction to the usage of each file.
 
 ### WeNet.py
+1.Modify the audio file path in the model.transcribe method.
+2.Run the command 'python .\WeNet.py' to obtain the results.
+
+### SoundClassification.py
+---Train Model---
+1.Run the command 'python .\SoundClassification.py --mode train --data-path validated.tsv' to train the model.
+(For the validated.tsv file and the training audio files, please visit https://commonvoice.mozilla.org/en/datasets and select to download the Common Voice Corpus 3)
