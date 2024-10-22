@@ -211,8 +211,8 @@ def fine_tune_model(model, tsv_file, encoders, model_path, epochs=10):
         X_new, y_accent_encoded, y_age_encoded, y_gender_encoded, test_size=0.2, random_state=42)
 
     # Unfreeze some layers for fine-tuning
-    # for layer in model.layers[-2:]:
-    #     layer.trainable = True
+    for layer in model.layers[-2:]:
+        layer.trainable = True
 
     model = create_cnn_model((X_train.shape[1],), len(le_accent.classes_), len(le_age.classes_), len(le_gender.classes_))
     model.compile(optimizer='adam',
