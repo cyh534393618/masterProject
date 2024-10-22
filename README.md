@@ -75,14 +75,13 @@ The Python scripts are mainly divided into three files. WeNet.py is responsible 
 ### SoundClassification.py
 ------Train Model------
 
-1.Run the command 'python .\SoundClassification.py --mode train --data-path validated.tsv' to train the model.
+Run the command 'python .\SoundClassification.py --mode train --data-path validated.tsv' to train the model.
 
 (For the validated.tsv file and the training audio files, please visit https://commonvoice.mozilla.org/en/datasets and select to download the Common Voice Corpus 3)
 
-
 ------Fine Tune Model------
 
-1.Run the command 'python .\SoundClassification.py --mode fine-tune --model-path .\sound_classification_model.keras --data-path validated.tsv --voice-path output_file.wav --gender male --age thirties --accent hongkong' to fine-tune the model.
+Run the command 'python .\SoundClassification.py --mode fine-tune --model-path .\sound_classification_model.keras --data-path validated.tsv --voice-path output_file.wav --gender male --age thirties --accent hongkong' to fine-tune the model.
 
 The required parameters are as follows:
 
@@ -97,3 +96,13 @@ The required parameters are as follows:
 --age: The correct age of the speaker.
 
 --accent: The correct accent of the speaker.
+
+------Test Voice File------
+
+Run the command 'python .\SoundClassification.py --mode test --model-path .\sound_classification_model.keras --test-file .\output_file.wav' to test the voice file.
+
+The required parameters are as follows:
+
+--model-path: The path to the trained model.
+
+--test-file: Path to the test audio file.
