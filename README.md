@@ -3,6 +3,10 @@
 ## Description
 The source code of this project is mainly divided into two parts: the front end and the back end. The front end is primarily developed using HBuilder X, while the back end is developed using Node.js and Nest.js. The Python scripts in the 'Python Script' folder are already included in the BackEnd/Py folder for easy reference to the relevant scripts.
 
+You can find a demo video of using the app at the following link for reference.
+
+https://drive.google.com/drive/folders/1nBVEf-7Ed3uAgMX4V87tpkhtQhEscVSG?usp=drive_link
+
 ## Front End setup
 Step 1: Download HBuilder X and open the source code project in the FrontEnd folder.
 
